@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="GWT2.7MavenEclipse">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/web/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/web/src/main/webapp"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/web/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/server/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/server/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/shared/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/shared/src/main/java"/>
+        <property name="java-output-path" value="/GWT2.7MavenEclipse/target/classes"/>
+        <property name="context-root" value="GWT2.7MavenEclipse"/>
+    </wb-module>
+</project-modules>
