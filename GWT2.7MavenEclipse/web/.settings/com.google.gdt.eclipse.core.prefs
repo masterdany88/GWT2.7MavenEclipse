@@ -1,5 +1,4 @@
 eclipse.preferences.version=1
-jarsExcludedFromWebInfLib=
 lastWarOutDir=/home/danielo/git/GWT2.7MavenEclipse/GWT2.7MavenEclipse/war
-warSrcDir=war
+warSrcDir=src/main/webapp
 warSrcDirIsOutput=false

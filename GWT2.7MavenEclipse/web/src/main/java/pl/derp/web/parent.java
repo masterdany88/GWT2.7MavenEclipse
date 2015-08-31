@@ -11,6 +11,7 @@ import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.event.dom.client.KeyCodes;
 import com.google.gwt.event.dom.client.KeyUpEvent;
 import com.google.gwt.event.dom.client.KeyUpHandler;
+import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.DialogBox;
@@ -43,8 +44,8 @@ public class parent implements EntryPoint {
    * This is the entry point method.
    */
   public void onModuleLoad() {
-	  //final Button sendButton = new Button( messages.sendButton() );
-    final Button sendButton = new Button( "Send button test blah blabh" );
+	final Button sendButton = new Button( messages.sendButton() );
+    //final Button sendButton = new Button( "Send button test blah blabh" );
     final TextBox nameField = new TextBox();
     nameField.setText( messages.nameField() );
     final Label errorLabel = new Label();
@@ -54,6 +55,7 @@ public class parent implements EntryPoint {
 
     // Add the nameField and sendButton to the RootPanel
     // Use RootPanel.get() to get the entire body element
+    RootPanel.get().add(new HTML("<p>Testing....</p>"));
     RootPanel.get("nameFieldContainer").add(nameField);
     RootPanel.get("sendButtonContainer").add(sendButton);
     RootPanel.get("errorLabelContainer").add(errorLabel);
@@ -116,7 +118,7 @@ public class parent implements EntryPoint {
         errorLabel.setText("");
         String textToServer = nameField.getText();
         if (!FieldVerifier.isValidName(textToServer)) {
-          errorLabel.setText("Please enter at least four characters");
+          errorLabel.setText("Please enter at least four characters :D");
           return;
         }
 
