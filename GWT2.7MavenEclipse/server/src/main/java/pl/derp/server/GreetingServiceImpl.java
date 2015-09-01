@@ -18,7 +18,7 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements Greetin
 	  
 	  Pizza pizza = new Pizza(213L);
 	  PizzaDao.save(pizza);
-	  
+	  PizzaDao.test();
 	  
     // Verify that the input is valid.
     if (!FieldVerifier.isValidName(input)) {

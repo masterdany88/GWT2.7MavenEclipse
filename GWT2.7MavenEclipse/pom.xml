@@ -17,7 +17,7 @@
 		<gwtVersion>2.7.0</gwtVersion>
 		<webappDirectory>${project.build.directory}/${project.build.finalName}</webappDirectory>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<tomcat.webport>8082</tomcat.webport>
+		<tomcat.webport>8083</tomcat.webport>
 		<tomcat.ajpport>8182</tomcat.ajpport>
 		<tomcat.context>/parent</tomcat.context>
 
