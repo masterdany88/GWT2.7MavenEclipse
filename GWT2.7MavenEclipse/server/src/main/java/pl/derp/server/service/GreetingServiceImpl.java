@@ -1,6 +1,6 @@
-package pl.derp.server;
+package pl.derp.server.service;
 
-import pl.derp.web.GreetingService;
+import pl.derp.web.service.GreetingService;
 import pl.derp.server.dao.PizzaDao;
 import pl.derp.server.entity.Pizza;
 import pl.derp.shared.FieldVerifier;

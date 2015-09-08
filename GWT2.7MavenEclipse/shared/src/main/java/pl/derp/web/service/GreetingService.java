@@ -1,4 +1,4 @@
-package pl.derp.web;
+package pl.derp.web.service;
 
 import com.google.gwt.user.client.rpc.RemoteService;
 import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;

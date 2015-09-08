@@ -1,8 +1,8 @@
 package pl.derp.web;
 
 import pl.derp.shared.FieldVerifier;
-import pl.derp.web.GreetingService;
-import pl.derp.web.GreetingServiceAsync;
+import pl.derp.web.service.GreetingService;
+import pl.derp.web.service.GreetingServiceAsync;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.junit.client.GWTTestCase;
